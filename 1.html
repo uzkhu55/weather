@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzkhu Voice Search</title>
+    <style>
+      .voice-button {
+        background-color: #0c72e0;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+      }
+
+      .voice-button:hover {
+        background-color: #084a8c;
+      }
+
+      .status {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Uzkhu's Voice Search</h1>
+    <button class="voice-button" id="voiceButton">Start Voice Search</button>
+    <p class="status" id="status">
+      Click the button and speak your search query.
+    </p>
+
+    <video src="" width="700" height="700" autoplay></video>
+
+    <script src="voiceSearch.js"></script>
+    <script src="1.js"></script>
+  </body>
+</html>
